@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6267085B1CD5933B007F10ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267085A1CD5933B007F10ED /* AppDelegate.swift */; };
+		6267085D1CD5933B007F10ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267085C1CD5933B007F10ED /* ViewController.swift */; };
+		626708601CD5933B007F10ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6267085E1CD5933B007F10ED /* Main.storyboard */; };
+		626708621CD5933B007F10ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626708611CD5933B007F10ED /* Assets.xcassets */; };
+		626708651CD5933B007F10ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626708631CD5933B007F10ED /* LaunchScreen.storyboard */; };
+		626708701CD5933B007F10ED /* iChavoChat_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267086F1CD5933B007F10ED /* iChavoChat_v2Tests.swift */; };
+		6267087B1CD5933B007F10ED /* iChavoChat_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267087A1CD5933B007F10ED /* iChavoChat_v2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6267086C1CD5933B007F10ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6267084F1CD5933B007F10ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 626708561CD5933B007F10ED;
+			remoteInfo = "iChavoChat-v2";
+		};
+		626708771CD5933B007F10ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6267084F1CD5933B007F10ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 626708561CD5933B007F10ED;
+			remoteInfo = "iChavoChat-v2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		626708571CD5933B007F10ED /* iChavoChat-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iChavoChat-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6267085A1CD5933B007F10ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6267085C1CD5933B007F10ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6267085F1CD5933B007F10ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		626708611CD5933B007F10ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		626708641CD5933B007F10ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		626708661CD5933B007F10ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6267086B1CD5933B007F10ED /* iChavoChat-v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iChavoChat-v2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6267086F1CD5933B007F10ED /* iChavoChat_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChavoChat_v2Tests.swift; sourceTree = "<group>"; };
+		626708711CD5933B007F10ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626708761CD5933B007F10ED /* iChavoChat-v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iChavoChat-v2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6267087A1CD5933B007F10ED /* iChavoChat_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChavoChat_v2UITests.swift; sourceTree = "<group>"; };
+		6267087C1CD5933B007F10ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		626708541CD5933B007F10ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626708681CD5933B007F10ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626708731CD5933B007F10ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6267084E1CD5933B007F10ED = {
+			isa = PBXGroup;
+			children = (
+				626708591CD5933B007F10ED /* iChavoChat-v2 */,
+				6267086E1CD5933B007F10ED /* iChavoChat-v2Tests */,
+				626708791CD5933B007F10ED /* iChavoChat-v2UITests */,
+				626708581CD5933B007F10ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		626708581CD5933B007F10ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				626708571CD5933B007F10ED /* iChavoChat-v2.app */,
+				6267086B1CD5933B007F10ED /* iChavoChat-v2Tests.xctest */,
+				626708761CD5933B007F10ED /* iChavoChat-v2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		626708591CD5933B007F10ED /* iChavoChat-v2 */ = {
+			isa = PBXGroup;
+			children = (
+				6267085A1CD5933B007F10ED /* AppDelegate.swift */,
+				6267085C1CD5933B007F10ED /* ViewController.swift */,
+				6267085E1CD5933B007F10ED /* Main.storyboard */,
+				626708611CD5933B007F10ED /* Assets.xcassets */,
+				626708631CD5933B007F10ED /* LaunchScreen.storyboard */,
+				626708661CD5933B007F10ED /* Info.plist */,
+			);
+			path = "iChavoChat-v2";
+			sourceTree = "<group>";
+		};
+		6267086E1CD5933B007F10ED /* iChavoChat-v2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6267086F1CD5933B007F10ED /* iChavoChat_v2Tests.swift */,
+				626708711CD5933B007F10ED /* Info.plist */,
+			);
+			path = "iChavoChat-v2Tests";
+			sourceTree = "<group>";
+		};
+		626708791CD5933B007F10ED /* iChavoChat-v2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6267087A1CD5933B007F10ED /* iChavoChat_v2UITests.swift */,
+				6267087C1CD5933B007F10ED /* Info.plist */,
+			);
+			path = "iChavoChat-v2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		626708561CD5933B007F10ED /* iChavoChat-v2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6267087F1CD5933B007F10ED /* Build configuration list for PBXNativeTarget "iChavoChat-v2" */;
+			buildPhases = (
+				626708531CD5933B007F10ED /* Sources */,
+				626708541CD5933B007F10ED /* Frameworks */,
+				626708551CD5933B007F10ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iChavoChat-v2";
+			productName = "iChavoChat-v2";
+			productReference = 626708571CD5933B007F10ED /* iChavoChat-v2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6267086A1CD5933B007F10ED /* iChavoChat-v2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626708821CD5933B007F10ED /* Build configuration list for PBXNativeTarget "iChavoChat-v2Tests" */;
+			buildPhases = (
+				626708671CD5933B007F10ED /* Sources */,
+				626708681CD5933B007F10ED /* Frameworks */,
+				626708691CD5933B007F10ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6267086D1CD5933B007F10ED /* PBXTargetDependency */,
+			);
+			name = "iChavoChat-v2Tests";
+			productName = "iChavoChat-v2Tests";
+			productReference = 6267086B1CD5933B007F10ED /* iChavoChat-v2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		626708751CD5933B007F10ED /* iChavoChat-v2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626708851CD5933B007F10ED /* Build configuration list for PBXNativeTarget "iChavoChat-v2UITests" */;
+			buildPhases = (
+				626708721CD5933B007F10ED /* Sources */,
+				626708731CD5933B007F10ED /* Frameworks */,
+				626708741CD5933B007F10ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				626708781CD5933B007F10ED /* PBXTargetDependency */,
+			);
+			name = "iChavoChat-v2UITests";
+			productName = "iChavoChat-v2UITests";
+			productReference = 626708761CD5933B007F10ED /* iChavoChat-v2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6267084F1CD5933B007F10ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Aaron De Santiago";
+				TargetAttributes = {
+					626708561CD5933B007F10ED = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6267086A1CD5933B007F10ED = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 626708561CD5933B007F10ED;
+					};
+					626708751CD5933B007F10ED = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 626708561CD5933B007F10ED;
+					};
+				};
+			};
+			buildConfigurationList = 626708521CD5933B007F10ED /* Build configuration list for PBXProject "iChavoChat-v2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6267084E1CD5933B007F10ED;
+			productRefGroup = 626708581CD5933B007F10ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				626708561CD5933B007F10ED /* iChavoChat-v2 */,
+				6267086A1CD5933B007F10ED /* iChavoChat-v2Tests */,
+				626708751CD5933B007F10ED /* iChavoChat-v2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		626708551CD5933B007F10ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626708651CD5933B007F10ED /* LaunchScreen.storyboard in Resources */,
+				626708621CD5933B007F10ED /* Assets.xcassets in Resources */,
+				626708601CD5933B007F10ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626708691CD5933B007F10ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626708741CD5933B007F10ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		626708531CD5933B007F10ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6267085D1CD5933B007F10ED /* ViewController.swift in Sources */,
+				6267085B1CD5933B007F10ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626708671CD5933B007F10ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626708701CD5933B007F10ED /* iChavoChat_v2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626708721CD5933B007F10ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6267087B1CD5933B007F10ED /* iChavoChat_v2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6267086D1CD5933B007F10ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 626708561CD5933B007F10ED /* iChavoChat-v2 */;
+			targetProxy = 6267086C1CD5933B007F10ED /* PBXContainerItemProxy */;
+		};
+		626708781CD5933B007F10ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 626708561CD5933B007F10ED /* iChavoChat-v2 */;
+			targetProxy = 626708771CD5933B007F10ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6267085E1CD5933B007F10ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6267085F1CD5933B007F10ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		626708631CD5933B007F10ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				626708641CD5933B007F10ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6267087D1CD5933B007F10ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6267087E1CD5933B007F10ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		626708801CD5933B007F10ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iChavoChat-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Null.iChavoChat-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		626708811CD5933B007F10ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iChavoChat-v2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Null.iChavoChat-v2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		626708831CD5933B007F10ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iChavoChat-v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Null.iChavoChat-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iChavoChat-v2.app/iChavoChat-v2";
+			};
+			name = Debug;
+		};
+		626708841CD5933B007F10ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iChavoChat-v2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Null.iChavoChat-v2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iChavoChat-v2.app/iChavoChat-v2";
+			};
+			name = Release;
+		};
+		626708861CD5933B007F10ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iChavoChat-v2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Null.iChavoChat-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iChavoChat-v2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		626708871CD5933B007F10ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iChavoChat-v2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Null.iChavoChat-v2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iChavoChat-v2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		626708521CD5933B007F10ED /* Build configuration list for PBXProject "iChavoChat-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6267087D1CD5933B007F10ED /* Debug */,
+				6267087E1CD5933B007F10ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6267087F1CD5933B007F10ED /* Build configuration list for PBXNativeTarget "iChavoChat-v2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626708801CD5933B007F10ED /* Debug */,
+				626708811CD5933B007F10ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		626708821CD5933B007F10ED /* Build configuration list for PBXNativeTarget "iChavoChat-v2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626708831CD5933B007F10ED /* Debug */,
+				626708841CD5933B007F10ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		626708851CD5933B007F10ED /* Build configuration list for PBXNativeTarget "iChavoChat-v2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626708861CD5933B007F10ED /* Debug */,
+				626708871CD5933B007F10ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6267084F1CD5933B007F10ED /* Project object */;
+}
